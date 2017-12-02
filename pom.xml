@@ -2,13 +2,24 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.nfx</groupId>
   <artifactId>nfe-ws</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>nfe-ws</name>
   <description>Web service e objetos nfe</description>
   
   <properties>
   	<src.dir>src/main/java</src.dir>
   </properties>
+  
+  <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/A5DEVTZQrxv3JNWkVfNX/</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/A5DEVTZQrxv3JNWkVfNX/</url>
+        </snapshotRepository>
+    </distributionManagement>
   
   <dependencies>
   		<dependency>
